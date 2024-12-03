@@ -1,2 +1,38 @@
-# -
-潮流风格穿搭-学校作业
+# 潮流风格穿搭-学校作业
+<h1 id="D0hsM">项目目录结构</h1>
+
++ **index.html**  
++ **bootstrap**  
+  - **css**  
+    * bootstrap.min.css
+  - **js**  
+    * bootstrap.js  
+    * bootstrap.min.js  
+    * jquery.min.js
++ **css**  
+  - font-awesome.min.css  
+  - style.css
++ **fonts**  
+  - fontawesome-webfont.eot  
+  - fontawesome-webfont.svg  
+  - fontawesome-webfont.ttf  
+  - fontawesome-webfont.woff  
+  - fontawesome-webfont.woff2  
+  - FontAwesome.otf
++ **images**  
+  - banner-1.jpg  
+  - banner-2.jpg  
+  - banner-3.jpg  
+  - banner-4.jpg  
+  - chao-1.png  
+  - chao-2.png  
+  - chao-3.png  
+  - chao-4.png  
+  - logo.png  
+  - logo.svg  
+  - new-1.png  
+  - new-2.jpg  
+  - tab-1.png  
+  - tab-2.png  
+  - tab-3.png  
+  - tab-4.png

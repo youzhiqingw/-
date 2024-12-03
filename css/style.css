@@ -1,0 +1,74 @@
+/* 设置导航栏、文章和页脚为块级元素 */
+nav, article, footer {
+    display: block;
+}
+
+/* 隐藏标题h1.title，使其不显示 */
+h1.title {
+    font-size: 0 !important; /* 设置字体大小为0，隐藏文本 */
+    line-height: 0 !important; /* 设置行高为0，隐藏文本 */
+    margin-bottom: 0 !important; /* 设置底部外边距为0，隐藏文本 */
+}
+
+/* 设置首页二级标题.index-h2的样式 */
+.index-h2 {
+    font-size: calc(1rem + 1vw); /* 字体大小根据视口宽度变化 */
+    text-align: center; /* 文本居中对齐 */
+    letter-spacing: 1px; /* 字母间距为1像素 */
+    color: #ff00f6; /* 字体颜色为粉紫色 */
+}
+
+/* 设置首页二级标题段落.index-h2-p的样式 */
+.index-h2-p {
+    font-size: calc(0.7rem + 0.8vw); /* 字体大小根据视口宽度变化 */
+    text-align: center; /* 文本居中对齐 */
+    letter-spacing: 1px; /* 字母间距为1像素 */
+    color: #999; /* 字体颜色为浅灰色 */
+}
+
+/* 设置.publish类下的.row样式 */
+.publish .row {
+    border-bottom: 1px solid #ccc; /* 底部边框为1像素宽的灰色 */
+    padding: 10px 0; /* 上下内边距为10像素，左右内边距为0 */
+}
+
+/* 当视口宽度大于等于1200像素时 */
+@media (min-width: 1200px) {
+    /* 调整首页二级标题.index-h2的字体大小 */
+    .index-h2 {
+        font-size: 220%; /* 字体大小为220% */
+    }
+    /* 调整首页二级标题段落.index-h2-p的字体大小 */
+    .index-h2-p {
+        font-size: 160%; /* 字体大小为160% */
+    }
+}
+
+/* 当视口宽度小于等于767像素时 */
+@media screen and (max-width: 767px) {
+    /* 调整.publish类下的h3字体大小 */
+    .publish h3 {
+        font-size: 14px; /* 字体大小为14像素 */
+    }
+    /* 调整p.text-muted的字体大小和底部外边距 */
+    p.text-muted {
+        font-size: 14px; /* 字体大小为14像素 */
+        margin-bottom: 0; /* 底部外边距为0 */
+    }
+    /* 调整首页二级标题.index-h2的顶部外边距 */
+    .index-h2 {
+        margin-top: 1rem; /* 顶部外边距为1rem */
+    }
+    /* 调整首页二级标题段落.index-h2-p的底部外边距 */
+    .index-h2-p {
+        margin-bottom: 1.5rem !important; /* 底部外边距为1.5rem，优先级最高 */
+    }
+    /* 调整.skill的底部外边距 */
+    .skill {
+        margin-bottom: 0.5rem !important; /* 底部外边距为0.5rem，优先级最高 */
+    }
+    /* 调整轮播图指示器.carousel-indicators的位置 */
+    .carousel-indicators {
+        bottom: -10px; /* 距离底部-10像素 */
+    }
+}
